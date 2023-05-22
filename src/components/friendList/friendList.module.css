@@ -1,0 +1,12 @@
+.friend_list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(193, 242, 242);
+  border: 2px solid rgb(111, 243, 245);
+}
