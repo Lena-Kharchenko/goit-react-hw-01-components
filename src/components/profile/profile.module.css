@@ -40,3 +40,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.quantity {
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.label {
+  font-weight: lighter;
+}
