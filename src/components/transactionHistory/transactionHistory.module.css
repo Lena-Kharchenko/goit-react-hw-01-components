@@ -1,0 +1,28 @@
+.transaction_history {
+  margin-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 70vw;
+}
+
+.header {
+  background-color: rgb(111, 243, 245);
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+.row {
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.row:hover {
+  background-color: rgb(193, 242, 242);
+  cursor: pointer;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.field {
+  padding: 20px;
+  border: 1px solid gray;
+}
