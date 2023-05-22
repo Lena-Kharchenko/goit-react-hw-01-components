@@ -1,0 +1,42 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid rgb(111, 243, 245);
+  border-radius: 5px;
+  width: 250px;
+  background-color: rgb(193, 242, 242);
+}
+
+.profile:hover,
+.profile:focus {
+  box-shadow: rgba(122, 241, 247, 0.4) 5px 5px,
+    rgba(113, 219, 210, 0.3) 10px 10px, rgba(29, 210, 204, 0.2) 15px 15px,
+    rgba(16, 150, 152, 0.1) 20px 20px, rgba(2, 83, 83, 0.05) 25px 25px;
+}
+
+.avatar {
+  width: 200px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
