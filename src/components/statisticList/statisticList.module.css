@@ -15,3 +15,11 @@
     rgba(55, 199, 197, 0.3) 0px 30px 60px -30px,
     rgba(17, 137, 143, 0.35) 0px -2px 6px 0px inset;
 }
+
+.percentage {
+  padding-top: 10px;
+}
+
+.label {
+  font-weight: lighter;
+}
